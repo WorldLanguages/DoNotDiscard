@@ -1,21 +1,19 @@
 {
-   "manifest_version":2,
-   "name":"Do Not Discard",
-   "description":"Avoid Chrome automatically discarding tabs that it thinks don't interest to you when they do.",
-   "version":"1.0",
+  "manifest_version": 2,
+  "name": "Disable automatic tab discarding",
+  "description": "Stops Chrome from suspending tabs, and reloading them when you switch to them — works like chrome://flags/#automatic-tab-discarding",
+  "version": "1.0.2",
   "background": {
     "scripts": ["background.js"]
   },
-   "browser_action":{
-      "default_popup":"popup.html",
-      "default_icon":"icon.png"
-   },
-   "icons":{
-      "16":"icon.png",
-      "48":"icon.png",
-      "128":"icon.png"
-   },
-   "permissions":[
-      "tabs"
-    ]
- }
+  "browser_action": {
+    "default_title": "Automatic tab discarding currently disabled\nDisable/uninstall this extension to enable it",
+    "default_icon":"icon.png"
+  },
+  "icons": {
+    "16":"icon.png",
+    "48":"icon.png",
+    "128":"icon.png"
+  },
+  "permissions": []
+}
