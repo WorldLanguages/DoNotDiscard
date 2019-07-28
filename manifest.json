@@ -1,13 +1,14 @@
 {
   "manifest_version": 2,
-  "name": "Disable automatic tab discarding",
-  "description": "Stops Chrome from suspending tabs, and reloading them when you switch to them — works like chrome://flags/#automatic-tab-discarding",
-  "version": "1.0.2",
+  "name": "__MSG_manifest_name__",
+  "description": "__MSG_manifest_description__",
+  "version": "1.0.3",
   "background": {
-    "scripts": ["background.js"]
+    "scripts": ["background.js"],
+    "persistent": false
   },
   "browser_action": {
-    "default_title": "Automatic tab discarding currently disabled\nDisable/uninstall this extension to enable it",
+    "default_title": "__MSG_manifest_title__",
     "default_icon":"icon.png"
   },
   "icons": {
@@ -15,5 +16,6 @@
     "48":"icon.png",
     "128":"icon.png"
   },
-  "permissions": []
+  "permissions": ["contextMenus"],
+  "default_locale": "en"
 }

@@ -1,2 +1,2 @@
-# DoNotDiscard
-Avoid Chrome automatically discarding tabs that it thinks don't interest to you when they do.
+# Disable automatic tab discarding
+Stops Chrome from suspending tabs, and reloading them when you switch to them.

@@ -1,0 +1,17 @@
+{
+  "manifest_name": {
+    "message": "Deshabilitar la suspensión de pestañas"
+  },
+  "manifest_description": {
+    "message": "Evita que Chrome suspenda pestañas y se actualicen cuando vuelves a ellas"
+  },
+  "manifest_title": {
+    "message": "La suspensión de pestañas está deshabilitada\nDesactiva/desinstala esta extensión para activarla"
+  },
+  "cm_review": {
+    "message": "Calificar esta extensión en la tienda"
+  },
+  "cm_support": {
+    "message": "Enviar comentarios (sugerencias, problemas)"
+  }
+}
