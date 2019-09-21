@@ -1,5 +1,4 @@
 chrome.tabs.onCreated.addListener(function(tab) {
-  if(tab.status === "complete") chrome.tabs.reload(tab.id);
   chrome.tabs.update(tab.id, {autoDiscardable: false});
 });
 

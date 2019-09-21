@@ -3,7 +3,7 @@
     "message": "Disable automatic tab discarding"
   },
   "manifest_description": {
-    "message": "Stops Chrome from suspending tabs, and reloading them when you switch to them"
+    "message": "Stops Chrome from suspending tabs, and reloading them when you switch to them."
   },
   "manifest_title": {
     "message": "Automatic tab discarding currently disabled\nDisable/uninstall this extension to enable it"
