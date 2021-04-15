@@ -6,12 +6,24 @@
     "message": "Evita que Chrome suspenda pestañas y se actualicen cuando vuelves a ellas."
   },
   "manifest_title": {
-    "message": "La suspensión de pestañas está deshabilitada\nDesactiva/desinstala esta extensión para activarla"
+    "message": "Haga clic para abrir la ventana emergente."
   },
   "cm_review": {
     "message": "Calificar esta extensión en la tienda"
   },
   "cm_support": {
     "message": "Enviar comentarios (sugerencias, problemas)"
+  },
+  "cm_help": {
+    "message": "Ayudar"
+  },
+  "version": {
+    "message": "Versión"
+  },
+  "help": {
+    "message": "Seleccione las pestañas para las que desea deshabilitar el descarte."
+  },
+  "select_all": {
+    "message": "Seleccionar todo"
   }
 }

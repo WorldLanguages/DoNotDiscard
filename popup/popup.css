@@ -1,0 +1,153 @@
+body,
+html {
+  height: 500px;
+  width: 300px;
+}
+
+* {
+  user-select: none;
+}
+
+#titlebar {
+  height: 40px;
+  width: 100%;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0;
+}
+
+#titlebar > img {
+  height: 30px;
+  margin: 5px;
+}
+
+#titlebar > p {
+  height: 30px;
+  line-height: 15px;
+  position: absolute;
+  width: -webkit-fill-available;
+  top: 0;
+  font-size: 15px;
+  left: 40px;
+  font-weight: bold;
+}
+
+#version {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 40px;
+  left: 0px;
+  line-height: 0px;
+  font-size: 10px;
+}
+
+#help {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 60px;
+  left: 0px;
+  line-height: 0px;
+  font-size: 10px;
+}
+
+#tablist {
+  position: fixed;
+  width: 290px;
+  border: 1px solid black;
+  top: 80px;
+  left: 5px;
+  bottom: 5px;
+  right: 5px;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.tabitem:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.tabitem {
+  position: absolute;
+  left: 0;
+  height: 20px;
+  width: 290px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.tabitem > input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 15px;
+  width: 15px;
+}
+
+input[type="checkbox"] {
+  margin: 2.5px;
+  border-radius: 4px;
+  padding: 0;
+  -webkit-appearance: none;
+  background-color: #fff;
+  background-size: 15px 15px;
+  background-position: center center;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  transition: box-shadow 0.25s ease-out;
+}
+
+input[type="checkbox"]:checked {
+  background-color: #175ef8;
+  background-image: url(check.svg);
+}
+
+input[type="checkbox"]:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #2670ff5d;
+}
+
+.tabitem > img {
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  margin: 2.5px;
+  left: 20px;
+}
+
+.tabitem > p {
+  position: absolute;
+  top: -12px;
+  left: 45px;
+  height: 20px;
+  line-height: 20px;
+  text-overflow: ellipsis;
+  width: 240px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+#controls {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 30px;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+#controls > input {
+  height: 15px;
+  position: absolute;
+  top: 7.5px;
+  left: 0;
+  width: 15px;
+  margin-top: 0px;
+}
+
+#alllabel {
+  height: 15px;
+  position: absolute;
+  top: 7.5px;
+  left: 20px;
+  margin-top: 0px;
+}
