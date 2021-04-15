@@ -42,6 +42,9 @@ chrome.contextMenus.onClicked.addListener(function (info, tab) {
     case "support":
       chrome.tabs.create({ url: "https://chrome.google.com/webstore/detail/dnhngfnfolbmhgealdpolmhimnoliiok/support" });
       break;
+    case "help":
+      chrome.tabs.create({ url: "https://github.com/WorldLanguages/DoNotDiscard/issues" });
+      break;
   }
 });
 
