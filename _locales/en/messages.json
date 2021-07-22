@@ -1,17 +1,17 @@
 {
   "manifest_name": {
-    "message": "Disable automatic tab discarding"
+    "message": "Otomatik sekme askıya almayı devre dışı bırak"
   },
   "manifest_description": {
-    "message": "Stops Chrome from suspending tabs, and reloading them when you switch to them."
+    "message": "Chrome'un sekmeleri askıya almasını ve geçiş yaptığınızda yeniden yüklemesini durdurur."
   },
   "manifest_title": {
-    "message": "Automatic tab discarding currently disabled\nDisable/uninstall this extension to enable it"
+    "message": "Otomatik sekme askıya alma şu anda devre dışı\nEtkinleştirmek için bu uzantıyı devre dışı bırakın/kaldırın"
   },
   "cm_review": {
-    "message": "Rate this extension in store"
+    "message": "Bu uzantıyı mağazada değerlendirin"
   },
   "cm_support": {
-    "message": "Send feedback (suggestions, issues)"
+    "message": "Geri bildirim gönder (öneriler, sorunlar)"
   }
 }
