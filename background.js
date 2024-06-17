@@ -17,6 +17,7 @@ chrome.runtime.onInstalled.addListener(function(details) {
 
 chrome.runtime.setUninstallURL("https://chrome.google.com/webstore/detail/dnhngfnfolbmhgealdpolmhimnoliiok/support");
 
+chrome.contextMenus.removeAll();
 chrome.contextMenus.create({
   id: "review",
   title: "🌟 " + chrome.i18n.getMessage("cm_review"),
